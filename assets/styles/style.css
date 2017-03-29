@@ -4,14 +4,38 @@ div{
   margin-bottom: 10px;
   text-align: center;
   width: 30%;
+  margin: 10px;
+  overflow: hidden;
 }
 
 p {
   font-family: Helvetica;
 }
 
+.header{
+  height: 50px;
+  width: 85%;
+  float: right;
+  background-color: blue;
+}
+.footer{
+  height: 50px;
+  width: 85%;
+  float: right;
+  background-color: red;
+}
 .half {
+  float: right;
+  width: 41%;
+ background-color: pink;
 }
 
+.right{
+  float: left;
+  position: fixed;
+  height: 90%;
+  width: 10%;
+  background-color: green;
+}
 .full{
 }
